@@ -1,0 +1,224 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+#header .main {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+#header .main .box1 {
+    width: 70%;
+}
+
+#header .main .box1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    padding: 8px;
+}
+
+#header .main .box1 a:hover {
+    background: rgb(232, 228, 228);
+    padding: 8px;
+}
+
+#header .main .box2 {
+    width: 30%;
+}
+
+#header .main .box2 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .main .box2 ul li {
+    list-style: none;
+}
+
+#header .main .box2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#header .main .box2 ul li a:hover {
+    background: rgb(232, 228, 228);
+    padding: 8px;
+}
+
+#header .image {
+    background: url(../image/architect.jpg) no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    text-align: center;
+    padding: 320px;
+}
+
+#header .image span.BR {
+    background: rgba(7, 7, 7, 0.806);
+    margin: 200px 0px;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.906);
+    font-family: sans-serif;
+    letter-spacing: 7px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#header .image span.Architects {
+    margin: 200px 0px;
+    color: white;
+    font-size: 32px;
+    font-family: sans-serif;
+    letter-spacing: 7px;
+    margin-left: 10px;
+}
+
+/* ------------------------------------------------ */
+#projects .main h1 {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 70px 0px 20px 0px;
+}
+
+#projects .main .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#projects .main .boxes .box {
+    width: 24%;
+    position: relative;
+}
+
+#projects .main .boxes .box img {
+    width: 100%;
+    margin-top: 13px;
+}
+
+#projects .main .boxes .box h6 {
+    position: absolute;
+    top: 13px;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 17px;
+    font-family: sans-serif;
+    background: rgba(0, 0, 0, 0.854);
+    font-weight: 100;
+    padding: 10px;
+}
+
+/* ------------------------------------------ */
+
+#about .main h1 {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 70px 0px 20px 0px;
+}
+
+#about .main p {
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 20px 0px;
+}
+
+#about .main .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+#about .main .boxes .box {
+    width: 24%;
+}
+
+#about .main .boxes .box img {
+    width: 100%;
+}
+
+#about .main .boxes .box h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+}
+
+#about .main .boxes .box h4 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+    color: rgba(126, 120, 120, 0.66);
+}
+
+#about .main .boxes .box p {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+}
+
+#about .main .boxes .box button {
+    width: 100%;
+    border: none;
+    padding: 10px 0px;
+}
+
+#about .main .boxes .box button:hover {
+    background: rgba(152, 151, 151, 0.662);
+}
+
+/* ---------------------------------------------- */
+
+#contact .main h1 {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 70px 0px 20px 0px;
+}
+
+#contact .main h5 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+
+#contact .main form input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 8px 0px;
+}
+
+#contact .main form button {
+    color: white;
+    padding: 10px 20px;
+    background: black;
+    border: none;
+    margin: 10px 0px;
+}
